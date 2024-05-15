@@ -1,9 +1,0 @@
-The conversion of the project was successful.
-
-The new directory structure is as follows:
-
-c:/users/lucho/onedrive/escritorio/electronicapotencia-main/tp3/1
-    tp3_ep.opj
-    tp3_ep.dsn
-c:/users/lucho/onedrive/escritorio/electronicapotencia-main/tp3/1/tp3_ep-PSpiceFiles
-c:/users/lucho/onedrive/escritorio/electronicapotencia-main/tp3/1/tp3_ep-PSpiceFiles/SCHEMATIC1
