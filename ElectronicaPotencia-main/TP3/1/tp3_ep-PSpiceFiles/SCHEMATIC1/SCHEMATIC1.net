@@ -1,0 +1,28 @@
+* source TP3_EP
+X_X1         N06786 N09172 N00779 MCR5167
+X_X2         N00779 N08329 N00833 MCR5167
+X_X3         N00793 N08632 N00833 MCR5167
+X_X4         N06786 N08552 N00793 MCR5167
+X_X5         N06786 N08833 N00772 MCR5167
+X_X6         N00772 N08844 N00833 MCR5167
+I_I4         N00779 N09172 DC 0Adc AC 0Aac
++PULSE 0 1 {tn4+td} 1u 1u 500u {1/frec}
+I_I1         N00833 N08329 DC 0Adc AC 0Aac
++PULSE 0 1 {tn1+td} 1u 1u 500u {1/frec}
+I_I2         N00833 N08632 DC 0Adc AC 0Aac
++PULSE 0 1 {tn2+td} 1u 1u 500u {1/frec}
+I_I5         N00793 N08552 DC 0Adc AC 0Aac
++PULSE 0 1 {tn5+td} 1u 1u 500u {1/frec}
+I_I6         N00772 N08833 DC 0Adc AC 0Aac
++PULSE 0 1 {tn6+td} 1u 1u 500u {1/frec}
+R_R1         N06786 N00833  10 TC=0,0 
+V_V1         N00779 0 DC 0 AC 0
++SIN 0 {vmax} {frec} 0 0 0
+V_V2         N00793 0 DC 0 AC 0
++SIN 0 {vmax} {frec} 0 0 120
+V_V3         N00772 0 DC 0 AC 0
++SIN 0 {vmax} {frec} 0 0 -120
+I_I3         N00833 N08844 DC 0Adc AC 0Aac
++PULSE 0 1 {tn3+td} 1u 1u 500u {1/frec}
+.PARAM  tn6=18.33m tn1=1.66m tn3=8.33m tn2=15m alpha=135 frec=50 vmax=311 td=
++ {alpha*20m/360} tn5=5m tn4=11.66m
