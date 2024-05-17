@@ -1,6 +1,6 @@
 (ExpressProject "TP3_EP"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1 S004 (4189164)  [4/25/2024]-[05/15/24]")
+  (SoftwareVersion "23.1 S004 (4189164)  [4/25/2024]-[05/16/24]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library")
@@ -66,7 +66,7 @@
     (DRC_Check_Pspice_Model_Lib_Path_Online "TRUE")
     (DRC_Run_Custom_Rules "FALSE")
     (DRC_Report_File
-       "C:\USERS\LUCHO\ONEDRIVE\ESCRITORIO\ELECTRONICAPOTENCIA-MAIN\TP3\2\TP3_EP.DRC")
+       "c:\users\lucho\onedrive\escritorio\electronicapotencia-main\tp3\simulacion\tp3_ep.drc")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420"))
   (Folder "Layout")
@@ -77,10 +77,22 @@
       (Type "Report")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles"
-      (ActiveProfile ".\tp3_ep-pspicefiles\schematic1\carga_r.sim")
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\tp3_ep-pspicefiles\schematic1\carga_r.sim"
         (DisplayName "SCHEMATIC1-Carga_R")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tp3_ep-pspicefiles\schematic1\cargarl.sim"
+        (DisplayName "SCHEMATIC1-CargaRL")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tp3_ep-pspicefiles\schematic1\cargarl1.sim"
+        (DisplayName "SCHEMATIC1-CargaRL1")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\tp3_ep-pspicefiles\schematic1\cargarl2.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tp3_ep-pspicefiles\schematic1\cargarl2.sim"
+        (DisplayName "SCHEMATIC1-CargaRL2")
         (Type "PSpice Profile")))
     (Folder "Model Libraries"
       (Sort User))
@@ -90,6 +102,11 @@
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
       (LibraryName
@@ -140,14 +157,14 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 539"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 568"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 557")
-        (Scroll "-141 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 586")
+        (Scroll "-190 90")
+        (Zoom "90")
         (Occurrence "/"))
       (Path
          "C:\USERS\LUCHO\ONEDRIVE\ESCRITORIO\ELECTRONICAPOTENCIA-MAIN\TP3\SIMULACION\TP3_EP.DSN")

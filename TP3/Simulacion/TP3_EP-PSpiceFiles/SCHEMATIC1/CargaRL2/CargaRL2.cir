@@ -1,0 +1,19 @@
+** Profile: "SCHEMATIC1-CargaRL2"  [ C:\Users\lucho\OneDrive\Escritorio\ElectronicaPotencia-main\TP3\Simulacion\TP3_EP-PSpiceFiles\SCHEMATIC1\CargaRL2.sim ] 
+
+** Creating circuit file "CargaRL2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\lucho\cdssetup\OrCAD_PSpice\23.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 80ms 40ms 0.01ms 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

@@ -1,4 +1,4 @@
-Date and Time : 05/15/24 10:31:54
+Date and Time : 05/16/24 11:51:30
 
 --------------------------------------------------
 Checking Schematic: SCHEMATIC1
@@ -21,6 +21,14 @@ Checking Schematic: SCHEMATIC1
 INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
 
 Report for Invalid References
+ERROR(ORCAP-1616): Reference is invalid for this part RL 
+                    SCHEMATIC1, PAGE1  (8.89, 2.91) 
+ERROR(ORCAP-1616): Reference is invalid for this part V_R 
+                    SCHEMATIC1, PAGE1  (0.77, 3.22) 
+ERROR(ORCAP-1616): Reference is invalid for this part V_S 
+                    SCHEMATIC1, PAGE1  (2.25, 3.50) 
+ERROR(ORCAP-1616): Reference is invalid for this part V_T 
+                    SCHEMATIC1, PAGE1  (1.61, 3.50) 
 
 Report for Duplicate References
 
