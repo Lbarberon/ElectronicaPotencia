@@ -140,37 +140,37 @@
                     ("value"	"0Aac")
                     ("pspice_param"	"AC")
                 )
-                ("I2"
-                    ("value"	"1")
-                    ("pspice_param"	"I2")
-                )
-                ("PER"
-                    ("value"	"{1/frec}")
-                    ("pspice_param"	"PER")
-                )
-                ("TF"
-                    ("value"	"1u")
-                    ("pspice_param"	"TF")
-                )
-                ("TD"
-                    ("value"	"{tn4+td}")
-                    ("pspice_param"	"TD")
-                )
-                ("PW"
-                    ("value"	"500u")
-                    ("pspice_param"	"PW")
-                )
-                ("I1"
-                    ("value"	"0")
-                    ("pspice_param"	"I1")
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
                 )
                 ("TR"
                     ("value"	"1u")
                     ("pspice_param"	"TR")
                 )
-                ("BiasValue Power"
-                    ("value"	"0W")
-                    ("pspice_param"	"BiasValue Power")
+                ("I1"
+                    ("value"	"0")
+                    ("pspice_param"	"I1")
+                )
+                ("PW"
+                    ("value"	"500u")
+                    ("pspice_param"	"PW")
+                )
+                ("TD"
+                    ("value"	"{tn4+td}")
+                    ("pspice_param"	"TD")
+                )
+                ("TF"
+                    ("value"	"1u")
+                    ("pspice_param"	"TF")
+                )
+                ("PER"
+                    ("value"	"{1/frec}")
+                    ("pspice_param"	"PER")
+                )
+                ("I2"
+                    ("value"	"1")
+                    ("pspice_param"	"I2")
                 )
             )
         )
@@ -187,37 +187,37 @@
                     ("value"	"0Aac")
                     ("pspice_param"	"AC")
                 )
-                ("I2"
-                    ("value"	"1")
-                    ("pspice_param"	"I2")
-                )
-                ("PER"
-                    ("value"	"{1/frec}")
-                    ("pspice_param"	"PER")
-                )
-                ("TF"
-                    ("value"	"1u")
-                    ("pspice_param"	"TF")
-                )
-                ("TD"
-                    ("value"	"{tn1+td}")
-                    ("pspice_param"	"TD")
-                )
-                ("PW"
-                    ("value"	"500u")
-                    ("pspice_param"	"PW")
-                )
-                ("I1"
-                    ("value"	"0")
-                    ("pspice_param"	"I1")
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
                 )
                 ("TR"
                     ("value"	"1u")
                     ("pspice_param"	"TR")
                 )
-                ("BiasValue Power"
-                    ("value"	"0W")
-                    ("pspice_param"	"BiasValue Power")
+                ("I1"
+                    ("value"	"0")
+                    ("pspice_param"	"I1")
+                )
+                ("PW"
+                    ("value"	"500u")
+                    ("pspice_param"	"PW")
+                )
+                ("TD"
+                    ("value"	"{tn1+td}")
+                    ("pspice_param"	"TD")
+                )
+                ("TF"
+                    ("value"	"1u")
+                    ("pspice_param"	"TF")
+                )
+                ("PER"
+                    ("value"	"{1/frec}")
+                    ("pspice_param"	"PER")
+                )
+                ("I2"
+                    ("value"	"1")
+                    ("pspice_param"	"I2")
                 )
             )
         )
@@ -234,37 +234,37 @@
                     ("value"	"0Aac")
                     ("pspice_param"	"AC")
                 )
-                ("I2"
-                    ("value"	"1")
-                    ("pspice_param"	"I2")
-                )
-                ("PER"
-                    ("value"	"{1/frec}")
-                    ("pspice_param"	"PER")
-                )
-                ("TF"
-                    ("value"	"1u")
-                    ("pspice_param"	"TF")
-                )
-                ("TD"
-                    ("value"	"{tn2+td}")
-                    ("pspice_param"	"TD")
-                )
-                ("PW"
-                    ("value"	"500u")
-                    ("pspice_param"	"PW")
-                )
-                ("I1"
-                    ("value"	"0")
-                    ("pspice_param"	"I1")
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
                 )
                 ("TR"
                     ("value"	"1u")
                     ("pspice_param"	"TR")
                 )
-                ("BiasValue Power"
-                    ("value"	"0W")
-                    ("pspice_param"	"BiasValue Power")
+                ("I1"
+                    ("value"	"0")
+                    ("pspice_param"	"I1")
+                )
+                ("PW"
+                    ("value"	"500u")
+                    ("pspice_param"	"PW")
+                )
+                ("TD"
+                    ("value"	"{tn2+td}")
+                    ("pspice_param"	"TD")
+                )
+                ("TF"
+                    ("value"	"1u")
+                    ("pspice_param"	"TF")
+                )
+                ("PER"
+                    ("value"	"{1/frec}")
+                    ("pspice_param"	"PER")
+                )
+                ("I2"
+                    ("value"	"1")
+                    ("pspice_param"	"I2")
                 )
             )
         )
@@ -281,37 +281,37 @@
                     ("value"	"0Aac")
                     ("pspice_param"	"AC")
                 )
-                ("TR"
-                    ("value"	"1u")
-                    ("pspice_param"	"TR")
-                )
-                ("I1"
-                    ("value"	"0")
-                    ("pspice_param"	"I1")
-                )
-                ("PW"
-                    ("value"	"500u")
-                    ("pspice_param"	"PW")
-                )
-                ("TF"
-                    ("value"	"1u")
-                    ("pspice_param"	"TF")
-                )
-                ("TD"
-                    ("value"	"{tn5+td}")
-                    ("pspice_param"	"TD")
-                )
-                ("PER"
-                    ("value"	"{1/frec}")
-                    ("pspice_param"	"PER")
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
                 )
                 ("I2"
                     ("value"	"1")
                     ("pspice_param"	"I2")
                 )
-                ("BiasValue Power"
-                    ("value"	"0W")
-                    ("pspice_param"	"BiasValue Power")
+                ("PER"
+                    ("value"	"{1/frec}")
+                    ("pspice_param"	"PER")
+                )
+                ("TD"
+                    ("value"	"{tn5+td}")
+                    ("pspice_param"	"TD")
+                )
+                ("TF"
+                    ("value"	"1u")
+                    ("pspice_param"	"TF")
+                )
+                ("PW"
+                    ("value"	"500u")
+                    ("pspice_param"	"PW")
+                )
+                ("I1"
+                    ("value"	"0")
+                    ("pspice_param"	"I1")
+                )
+                ("TR"
+                    ("value"	"1u")
+                    ("pspice_param"	"TR")
                 )
             )
         )
@@ -328,37 +328,37 @@
                     ("value"	"0Aac")
                     ("pspice_param"	"AC")
                 )
-                ("I2"
-                    ("value"	"1")
-                    ("pspice_param"	"I2")
-                )
-                ("PER"
-                    ("value"	"{1/frec}")
-                    ("pspice_param"	"PER")
-                )
-                ("TF"
-                    ("value"	"1u")
-                    ("pspice_param"	"TF")
-                )
-                ("TD"
-                    ("value"	"{tn6+td}")
-                    ("pspice_param"	"TD")
-                )
-                ("PW"
-                    ("value"	"500u")
-                    ("pspice_param"	"PW")
-                )
-                ("I1"
-                    ("value"	"0")
-                    ("pspice_param"	"I1")
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
                 )
                 ("TR"
                     ("value"	"1u")
                     ("pspice_param"	"TR")
                 )
-                ("BiasValue Power"
-                    ("value"	"0W")
-                    ("pspice_param"	"BiasValue Power")
+                ("I1"
+                    ("value"	"0")
+                    ("pspice_param"	"I1")
+                )
+                ("PW"
+                    ("value"	"500u")
+                    ("pspice_param"	"PW")
+                )
+                ("TD"
+                    ("value"	"{tn6+td}")
+                    ("pspice_param"	"TD")
+                )
+                ("TF"
+                    ("value"	"1u")
+                    ("pspice_param"	"TF")
+                )
+                ("PER"
+                    ("value"	"{1/frec}")
+                    ("pspice_param"	"PER")
+                )
+                ("I2"
+                    ("value"	"1")
+                    ("pspice_param"	"I2")
                 )
             )
         )
@@ -379,33 +379,33 @@
                     ("value"	"0W")
                     ("pspice_param"	"BiasValue Power")
                 )
-                ("VOFF"
-                    ("value"	"0")
-                    ("pspice_param"	"VOFF")
-                )
-                ("VAMPL"
-                    ("value"	"{vmax}")
-                    ("pspice_param"	"VAMPL")
+                ("AppProp"
+                    ("value"	"Sine$Voltage$0$-1")
+                    ("pspice_param"	"AppProp")
                 )
                 ("FREQ"
                     ("value"	"{frec}")
                     ("pspice_param"	"FREQ")
                 )
-                ("AppProp"
-                    ("value"	"Sine$Voltage$0$-1")
-                    ("pspice_param"	"AppProp")
+                ("VAMPL"
+                    ("value"	"{vmax}")
+                    ("pspice_param"	"VAMPL")
                 )
-                ("TD"
+                ("VOFF"
                     ("value"	"0")
-                    ("pspice_param"	"TD")
+                    ("pspice_param"	"VOFF")
+                )
+                ("PHASE"
+                    ("value"	"0")
+                    ("pspice_param"	"PHASE")
                 )
                 ("DF"
                     ("value"	"0")
                     ("pspice_param"	"DF")
                 )
-                ("PHASE"
+                ("TD"
                     ("value"	"0")
-                    ("pspice_param"	"PHASE")
+                    ("pspice_param"	"TD")
                 )
             )
         )
@@ -426,33 +426,33 @@
                     ("value"	"-30.19mW")
                     ("pspice_param"	"BiasValue Power")
                 )
-                ("AppProp"
-                    ("value"	"Sine$Voltage$0$-1")
-                    ("pspice_param"	"AppProp")
-                )
-                ("PHASE"
-                    ("value"	"120")
-                    ("pspice_param"	"PHASE")
-                )
-                ("VOFF"
-                    ("value"	"0")
-                    ("pspice_param"	"VOFF")
+                ("VAMPL"
+                    ("value"	"{vmax}")
+                    ("pspice_param"	"VAMPL")
                 )
                 ("FREQ"
                     ("value"	"{frec}")
                     ("pspice_param"	"FREQ")
                 )
-                ("VAMPL"
-                    ("value"	"{vmax}")
-                    ("pspice_param"	"VAMPL")
-                )
-                ("TD"
+                ("VOFF"
                     ("value"	"0")
-                    ("pspice_param"	"TD")
+                    ("pspice_param"	"VOFF")
+                )
+                ("PHASE"
+                    ("value"	"120")
+                    ("pspice_param"	"PHASE")
+                )
+                ("AppProp"
+                    ("value"	"Sine$Voltage$0$-1")
+                    ("pspice_param"	"AppProp")
                 )
                 ("DF"
                     ("value"	"0")
                     ("pspice_param"	"DF")
+                )
+                ("TD"
+                    ("value"	"0")
+                    ("pspice_param"	"TD")
                 )
             )
         )
@@ -469,37 +469,37 @@
                     ("value"	"0")
                     ("pspice_param"	"AC")
                 )
-                ("AppProp"
-                    ("value"	"Sine$Voltage$0$-1")
-                    ("pspice_param"	"AppProp")
-                )
-                ("PHASE"
-                    ("value"	"240")
-                    ("pspice_param"	"PHASE")
-                )
-                ("VOFF"
-                    ("value"	"0")
-                    ("pspice_param"	"VOFF")
-                )
-                ("FREQ"
-                    ("value"	"{frec}")
-                    ("pspice_param"	"FREQ")
+                ("BiasValue Power"
+                    ("value"	"-30.19mW")
+                    ("pspice_param"	"BiasValue Power")
                 )
                 ("VAMPL"
                     ("value"	"{vmax}")
                     ("pspice_param"	"VAMPL")
                 )
-                ("BiasValue Power"
-                    ("value"	"-30.19mW")
-                    ("pspice_param"	"BiasValue Power")
+                ("FREQ"
+                    ("value"	"{frec}")
+                    ("pspice_param"	"FREQ")
                 )
-                ("TD"
+                ("VOFF"
                     ("value"	"0")
-                    ("pspice_param"	"TD")
+                    ("pspice_param"	"VOFF")
+                )
+                ("PHASE"
+                    ("value"	"240")
+                    ("pspice_param"	"PHASE")
+                )
+                ("AppProp"
+                    ("value"	"Sine$Voltage$0$-1")
+                    ("pspice_param"	"AppProp")
                 )
                 ("DF"
                     ("value"	"0")
                     ("pspice_param"	"DF")
+                )
+                ("TD"
+                    ("value"	"0")
+                    ("pspice_param"	"TD")
                 )
             )
         )
@@ -516,37 +516,37 @@
                     ("value"	"0Aac")
                     ("pspice_param"	"AC")
                 )
-                ("I2"
-                    ("value"	"1")
-                    ("pspice_param"	"I2")
-                )
-                ("PER"
-                    ("value"	"{1/frec}")
-                    ("pspice_param"	"PER")
-                )
-                ("TF"
-                    ("value"	"1u")
-                    ("pspice_param"	"TF")
-                )
-                ("TD"
-                    ("value"	"{tn3+td}")
-                    ("pspice_param"	"TD")
-                )
-                ("PW"
-                    ("value"	"500u")
-                    ("pspice_param"	"PW")
-                )
-                ("I1"
-                    ("value"	"0")
-                    ("pspice_param"	"I1")
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
                 )
                 ("TR"
                     ("value"	"1u")
                     ("pspice_param"	"TR")
                 )
-                ("BiasValue Power"
-                    ("value"	"0W")
-                    ("pspice_param"	"BiasValue Power")
+                ("I1"
+                    ("value"	"0")
+                    ("pspice_param"	"I1")
+                )
+                ("PW"
+                    ("value"	"500u")
+                    ("pspice_param"	"PW")
+                )
+                ("TD"
+                    ("value"	"{tn3+td}")
+                    ("pspice_param"	"TD")
+                )
+                ("TF"
+                    ("value"	"1u")
+                    ("pspice_param"	"TF")
+                )
+                ("PER"
+                    ("value"	"{1/frec}")
+                    ("pspice_param"	"PER")
+                )
+                ("I2"
+                    ("value"	"1")
+                    ("pspice_param"	"I2")
                 )
             )
         )
@@ -590,6 +590,10 @@
                     ("value"	"15m")
                     ("pspice_param"	"tn2")
                 )
+                ("val"
+                    ("value"	"5mh")
+                    ("pspice_param"	"val")
+                )
                 ("alpha"
                     ("value"	"135")
                     ("pspice_param"	"alpha")
@@ -598,13 +602,13 @@
                     ("value"	"50")
                     ("pspice_param"	"frec")
                 )
-                ("td"
-                    ("value"	"{alpha*20m/360}")
-                    ("pspice_param"	"td")
-                )
                 ("vmax"
                     ("value"	"311")
                     ("pspice_param"	"vmax")
+                )
+                ("td"
+                    ("value"	"{alpha*20m/360}")
+                    ("pspice_param"	"td")
                 )
                 ("tn5"
                     ("value"	"5m")

@@ -1,6 +1,6 @@
 (ExpressProject "TP3_EP"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1 S004 (4189164)  [4/25/2024]-[05/16/24]")
+  (SoftwareVersion "23.1 S004 (4189164)  [4/25/2024]-[05/18/24]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library")
@@ -89,10 +89,14 @@
          ".\tp3_ep-pspicefiles\schematic1\cargarl1.sim"
         (DisplayName "SCHEMATIC1-CargaRL1")
         (Type "PSpice Profile"))
-      (ActiveProfile ".\tp3_ep-pspicefiles\schematic1\cargarl2.sim")
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\tp3_ep-pspicefiles\schematic1\cargarl2.sim"
         (DisplayName "SCHEMATIC1-CargaRL2")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\tp3_ep-pspicefiles\schematic1\rle.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tp3_ep-pspicefiles\schematic1\rle.sim"
+        (DisplayName "SCHEMATIC1-RLE")
         (Type "PSpice Profile")))
     (Folder "Model Libraries"
       (Sort User))
@@ -102,6 +106,11 @@
       (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (PartMRUSelector
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_23.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
     (L
       (FullPartName "L.Normal")
       (LibraryName
@@ -157,14 +166,14 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 568"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 608"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 586")
-        (Scroll "-190 90")
-        (Zoom "90")
+        (Placement "44 0 1 -1 -1 5 24 5 1228 24 626")
+        (Scroll "86 385")
+        (Zoom "180")
         (Occurrence "/"))
       (Path
          "C:\USERS\LUCHO\ONEDRIVE\ESCRITORIO\ELECTRONICAPOTENCIA-MAIN\TP3\SIMULACION\TP3_EP.DSN")

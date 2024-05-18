@@ -1,0 +1,68 @@
+
+**** 05/18/24 13:45:19 ***** PSpice 23.1.0 (17 April 2024) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-RLE"  [ C:\Users\lucho\OneDrive\Escritorio\ElectronicaPotencia-main\TP3\Simulacion\TP3_EP-PSpiceFiles\SCHEMA
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "RLE.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\lucho\cdssetup\OrCAD_PSpice\23.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 80ms 40ms 
+.STEP LIN PARAM val 5m 15m 5m 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TP3_EP
+X_X1         N06786 N07787 N00779 MCR5167
+X_X2         N00779 N08106 N00833 MCR5167
+X_X3         N00793 N08261 N00833 MCR5167
+X_X4         N06786 N07895 N00793 MCR5167
+X_X5         N06786 N08438 N00772 MCR5167
+X_X6         N00772 N08587 N00833 MCR5167
+I_I4         N00779 N07787 DC 0Adc AC 0Aac
++PULSE 0 1 {tn4+td} 1u 1u 500u {1/frec}
+I_I1         N00833 N08106 DC 0Adc AC 0Aac
++PULSE 0 1 {tn1+td} 1u 1u 500u {1/frec}
+I_I2         N00833 N08261 DC 0Adc AC 0Aac
++PULSE 0 1 {tn2+td} 1u 1u 500u {1/frec}
+I_I5         N00793 N07895 DC 0Adc AC 0Aac
++PULSE 0 1 {tn5+td} 1u 1u 500u {1/frec}
+I_I6         N00772 N08438 DC 0Adc AC 0Aac
++PULSE 0 1 {tn6+td} 1u 1u 500u {1/frec}
+V_V_R         N00779 0 DC 0 AC 0
++SIN 0 {vmax} {frec} 0 0 0
+V_V_S         N00793 0 DC 0 AC 0
++SIN 0 {vmax} {frec} 0 0 120
+V_V_T         N00772 0 DC 0 AC 0
++SIN 0 {vmax} {frec} 0 0 240
+I_I3         N00833 N08587 DC 0Adc AC 0Aac
++PULSE 0 1 {tn3+td} 1u 1u 500u {1/frec}
+R_RL         N15102 N00833  10  
+L_L1         N15102 N06786  {val}H  TC=0,0 
+---------------------------------$
+ERROR(ORPSIM-16015): Unknown parameter.
+.PARAM  tn6=18.33m tn1=1.66m tn3=8.33m tn2=15m val=5m alpha=135 frec=50
++  vmax=311 td={alpha*20m/360} tn5=5m tn4=11.66m
+
+**** RESUMING RLE.cir ****
+.END
+
